@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب أونلاين</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">مطعم السي فود</div>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="menu.html">المنيو</a>
+            <a href="seafood site.html">أطباق سي فود</a>
+            <a href="order page.html" class="active">طلب أونلاين</a>
+            <a href="about.html">من نحن</a>
+            <a href="contact.html">التواصل</a>
+        </nav>
+    </header>
+
+    <section class="order-page">
+        <div class="order-card">
+            <h2>اطلب أونلاين</h2>
+            <form class="order-form">
+                <label>الاسم الكامل</label>
+                <input type="text" placeholder="اكتب اسمك" required>
+
+                <label>رقم الموبايل</label>
+                <input type="tel" placeholder="010…" required>
+
+                <label>العنوان</label>
+                <input type="text" placeholder="اكتب العنوان بالتفصيل" required>
+
+                <label>اختر الصنف</label>
+                <select required>
+                    <option>كابوريا بالزبدة - 120 جنيه</option>
+                    <option>سمك بزيت وليمون - 150 جنيه</option>
+                    <option>كاليماري مقلي - 130 جنيه</option>
+                    <option>جمبري مشوي - 180 جنيه</option>
+                    <option>سمك سنجاري مشوي - 170 جنيه</option>
+                    <option>كسرولة الجمبري - 160 جنيه</option>
+                </select>
+
+                <label>الكمية</label>
+                <input type="number" value="1" min="1" required>
+
+                <button class="btn full-width" type="submit">تأكيد الطلب</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 مطعم السي فود — جميع الحقوق محفوظة
+    </footer>
+</body>
+</html>
+

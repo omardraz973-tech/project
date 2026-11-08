@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أطباق سي فود</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .seafood-page {
+            padding: 56px 0 70px;
+            width: min(1100px, 92%);
+            margin: 0 auto;
+        }
+        .seafood-page h2 {
+            margin: 0 0 32px;
+            font-size: 28px;
+            color: var(--primary);
+            text-align: center;
+        }
+        .seafood-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .seafood-item {
+            background: white;
+            padding: 18px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .seafood-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+        .seafood-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+        .seafood-item h3 {
+            margin: 12px 0 8px;
+            color: var(--primary);
+            font-size: 20px;
+        }
+        .seafood-item .price {
+            margin: 8px 0 12px;
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .seafood-item .btn {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">مطعم السي فود</div>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="menu.html">المنيو</a>
+            <a href="seafood site.html" class="active">أطباق سي فود</a>
+            <a href="order page.html">طلب أونلاين</a>
+            <a href="about.html">من نحن</a>
+            <a href="contact.html">التواصل</a>
+        </nav>
+    </header>
+
+    <section class="seafood-page">
+        <h2>قائمة المأكولات البحرية</h2>
+
+        <div class="seafood-menu">
+
+            <div class="item">
+                <img src="Caboria with butter.jpeg" alt="كابوريا بالزبدة">
+                <h3>كابوريا بالزبدة</h3>
+                <p class="price">120 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+            <div class="item">
+                <img src="Fish, oil and lemon.jpeg" alt="سمك بزيت وليمون">
+                <h3>سمك بزيت وليمون</h3>
+                <p class="price">150 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+            <div class="item">
+                <img src="Fried calamari.jpeg" alt="كاليماري مقلي">
+                <h3>كاليماري مقلي</h3>
+                <p class="price">130 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+            <div class="item">
+                <img src="Grilled shrimp.jpeg" alt="جمبري مشوي">
+                <h3>جمبري مشوي</h3>
+                <p class="price">180 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+            <div class="item">
+                <img src="Grilled Sinjari fish.jpeg" alt="سمك سنجاري مشوي">
+                <h3>سمك سنجاري مشوي</h3>
+                <p class="price">170 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+            <div class="item">
+                <img src="Shrimp casserole.jpeg" alt="كسرولة الجمبري">
+                <h3>كسرولة الجمبري</h3>
+                <p class="price">160 $</p>
+                <a href="order page.html" class="btn">أضف إلى السلة</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2025 مطعم السي فود — جميع الحقوق محفوظة
+    </footer>
+
+</body>
+</html>
